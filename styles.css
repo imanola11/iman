@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(233, 233, 236);
+}
+.heading {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(72,103,170);
+    color: white;
+    align-items: center;
+}  
+.logo {
+    height: 90px;
+}
+.login {
+    width: 40%;
+    float: right;
+    display: flex;
+    align-items: center;
+}
+.login>div {
+    margin: 10px;
+}
+.login>div>input {
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.password>a {
+    text-decoration: none;
+    color: white;
+}
+.login>div>button {
+    background: rgb(72,103,170);
+    border: none;
+    box-shadow: 0px 2px 2px 0px #0e0e2e;
+    color: white;
+    width: 60px;
+    padding: 5px;
+}
+.main {
+    display: flex;
+    width: 100%;
+}
+.main>.main-connect {
+    width: 60%;
+    padding: 50px 0px 0px 40px;
+}
+.main>.signup-form {
+    width: 40%;
+}
+#email  {
+    width: 72%;
+}
+
+.signup-form>form>input {
+    margin-top: 10px;
+    padding: 5px;
+}
+.signup-form>form>p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.signup-form>form>select {
+    margin-top: 10px;
+    padding: 5px;
+}
+.why {
+    text-decoration: none;
+    color:black;
+    font-size: 10px;
+}
+.select{
+    display: flex;
+}
+.link{
+    padding-left: 5px;
+}
+.radio{
+    margin-top: 10px;
+}
+.male{
+    margin-left: 10px;
+}
+.p1{
+    color:rgb(53, 52, 52);
+    font-size: 10px;
+}
+.button{
+    height: 30px;
+    width: 130px;
+    border-radius: 5px;
+    background-color: rgb(6, 117, 6);
+    border-color: rgb(6, 117, 6);
+    color: white;
+}
+.hr{
+    margin-top: 25px;
+    width: 72%;
+    border: solid 1px wheat;
+    background-color: wheat;
+}
